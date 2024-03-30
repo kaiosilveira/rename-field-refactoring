@@ -1,3 +1,1 @@
-export function toBeRefactored() {
-  return 'Hello, world!';
-}
+export const organization = { name: 'Acme Gooseberries', country: 'GB' };

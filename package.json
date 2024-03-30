@@ -1,9 +1,9 @@
 {
   "type": "module",
-  "name": "refactoring-catalog-template",
+  "name": "rename-field-refactoring",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/kaiosilveira/refactoring-catalog-template.git",
+  "repository": "https://github.com/kaiosilveira/rename-field-refactoring.git",
   "author": "Kaio Silveira <silveira.kaio@icloud.com>",
   "license": "MIT",
   "scripts": {
@@ -11,7 +11,7 @@
     "tools:cli": "npx @kaiosilveira/refactoring-catalog-cli"
   },
   "devDependencies": {
-    "jest": "^29.0.3",
-    "@kaiosilveira/refactoring-catalog-cli": "^0.1.27"
+    "@kaiosilveira/refactoring-catalog-cli": "0.3.31",
+    "jest": "^29.0.3"
   }
 }
