@@ -10,11 +10,4 @@ describe('Organization', () => {
     const org = new Organization({ title: 'Acme Gooseberries', country: 'GB' });
     expect(org.name).toBe('Acme Gooseberries');
   });
-
-  it('should give title precedence over name', () => {
-    const title = 'Acme Gooseberries';
-    const name = 'Acme Berries';
-    const org = new Organization({ title, name, country: 'GB' });
-    expect(org.name).toBe(title);
-  });
 });

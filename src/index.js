@@ -21,4 +21,4 @@ export class Organization {
   }
 }
 
-export const organization = new Organization({ name: 'Acme Gooseberries', country: 'GB' });
+export const organization = new Organization({ title: 'Acme Gooseberries', country: 'GB' });
